@@ -1,0 +1,23 @@
+{
+    "name": "jinpy666/jwt",
+    "type": "library",
+    "description": "JSON Web Token (JWT)",
+    "keywords": ["library"],
+    "homepage": "https://github.com/jinpy666/jwt",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jinpy",
+            "email": "jinpy666@github.com",
+            "homepage": "https://github.com/jinpy666/jwt"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Jinpy666\\Jwt\\": "src/Jwt"
+        }
+    }
+}
